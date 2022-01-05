@@ -8,6 +8,13 @@ h1 {
   padding-left: 10px;
   line-height: 20px;
 }
+h2 {
+  font-size: 55px;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+}
 .orange {
   color: orange;
 }
@@ -18,7 +25,7 @@ h1 {
 }
 .flexible-content {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .half-width {
   width: 50%;
@@ -34,4 +41,28 @@ h1 {
   font-weight: bold;
   padding: 10px 40px;
   border-radius: 5px;
+}
+.mission-area {
+  padding: 25px;
+}
+.mission-content {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+}
+.mission-content img {
+  position: left;
+  width: 50%;
+}
+#mission {
+  background-color: rgb(199, 191, 236);
+}
+#vission {
+  background-color: rgb(238, 147, 170);
+}
+#goals {
+  background-color: rgb(231, 134, 134);
 }
