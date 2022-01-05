@@ -1,0 +1,11 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-family: "Yeseva One";
+  font-size: 50px;
+}
+.orange {
+  color: orange;
+}
