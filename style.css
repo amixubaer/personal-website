@@ -74,15 +74,14 @@ h3 {
 /* Blog card area */
 .blog-area {
   padding: 25px;
-  margin: 5px;
+  margin: 25px;
 }
 .blog-content {
-  width: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
 }
+
 .blog-content img {
   position: left;
   width: 50%;
