@@ -1,3 +1,4 @@
+/* Main body */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -26,16 +27,13 @@ h3 {
 .red {
   color: red;
 }
-.heading {
-  padding: auto;
-  border-left: 5px solid;
-  border-image: linear-gradient(tomato, red);
-  border-image-slice: 1;
-}
+
 .flexible-content {
   display: flex;
+  margin-top: 20px;
   margin-bottom: 60px;
 }
+
 .half-width {
   width: 50%;
   padding-left: 5%;
@@ -46,6 +44,14 @@ h3 {
   padding-right: 5%;
   width: 80%;
 }
+
+/* Heading */
+.heading {
+  border-left: 5px solid;
+  border-image: linear-gradient(tomato, red);
+  border-image-slice: 1;
+}
+/* Button */
 .link-btn {
   text-decoration: none;
   background-image: linear-gradient(tomato, red, tomato);
@@ -54,30 +60,34 @@ h3 {
   padding: 10px 40px;
   border-radius: 5px;
 }
-.mission-area {
+
+/* Blog card area */
+.blog-area {
   padding: 25px;
+  margin: 5px;
 }
-.mission-content {
+.blog-content {
   width: 100%;
   margin-left: 5%;
   margin-right: 5%;
   padding-left: 10px;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px grey;
 }
-.mission-content img {
+.blog-content img {
   position: left;
   width: 50%;
 }
 #mission {
-  background-color: rgb(199, 191, 236);
+  background-color: rgb(199, 191, 236, 0.5);
 }
 #vission {
-  background-color: rgb(238, 147, 170);
+  background-color: rgb(233, 153, 173, 0.5);
 }
 #goals {
-  background-color: rgb(231, 134, 134);
+  background-color: rgb(253, 180, 180, 0.5);
 }
+
+/* Blog post area */
 .develop-area {
   margin-left: 5%;
   padding-left: 5%;
@@ -95,6 +105,38 @@ h3 {
   background-position: right bottom;
   background-size: 40%;
 }
+
+/* Project area */
+.projects {
+  padding: 32px 0;
+  margin-top: 32px;
+  background-image: url(./images/shapes/shape-2.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 30%;
+}
+.projects-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-content img {
+  width: 80%;
+  height: 60%;
+}
+.project-content {
+  text-align: center;
+  width: 350px;
+  padding: 16px;
+}
+.project-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px grey;
+  padding: 20px;
+  margin: 10px;
+}
+/* Footer */
 footer {
   padding: 2%;
   text-align: center;
