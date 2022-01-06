@@ -3,7 +3,6 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
-
 h1 {
   font-family: "Yeseva One";
   font-size: 70px;
@@ -59,8 +58,19 @@ h3 {
   font-weight: bold;
   padding: 10px 40px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
+.submit-btn {
+  margin-top: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(blue, cyan);
+  color: white;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /* Blog card area */
 .blog-area {
   padding: 25px;
@@ -107,7 +117,7 @@ h3 {
 }
 
 /* Project area */
-.projects {
+#projects {
   padding: 32px 0;
   margin-top: 32px;
   background-image: url(./images/shapes/shape-2.png);
@@ -136,10 +146,32 @@ h3 {
   padding: 20px;
   margin: 10px;
 }
+
+/* Contact us */
+
+.contact-form {
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 10px 10px 40px grey;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+input[type="text"] {
+  padding: 2px;
+  width: 90%;
+}
+input[type="text-area"] {
+  padding: 2px;
+  width: 90%;
+  height: 90px;
+}
 /* Footer */
 footer {
+  margin-top: 50px;
   padding: 2%;
-  text-align: center;
+  text-align: justify;
   color: white;
   background-color: black;
 }
@@ -147,4 +179,7 @@ footer {
   text-align: center;
   font-size: 30px;
   font-family: "Lobster", cursive;
+}
+.footer-text {
+  text-align: center;
 }
